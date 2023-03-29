@@ -56,17 +56,29 @@ console.log(test);
 
 
 // * 타입 확인
-// function nametest(name, order) {
+function nametest(order,name) {
 
-//   const test = Number(order);
-//   // ! 타입을 스트링에서 숫자로 바꾸어 주었다.
-//   console.log(typeof(test));
-//   if (typeof (test) === 'number') {
-//     this.order = order,
-//       this.name = name
-//   }
-//     // console.log(typeof(order) );
-// }
+  const test = Number(order);
+  // ! 타입을 스트링에서 숫자로 바꾸어 주었다.
+
+  if (typeof (test) === 'number') {
+    this.order = order,
+      this.name = name
+  }
+    console.log(typeof(order) );
+}
+
+const a = [];
+for (let i = 0; i < studentList.length; i++) {
+  a.push(new nametest(i, studentList[i]));
+}
+
+console.log(...a);
+
+
+
+
+
 
 
 
@@ -95,12 +107,6 @@ console.log(test);
 //   }
 // }
 
-// const a = [];
-// for (let i = 0; i < studentList.length; i++) {
-//   a.push(new nametest(i, studentList[i]));
-// }
-
-// console.log(a);
 
 
 
