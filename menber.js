@@ -55,25 +55,25 @@ console.log(test);
 // ! 객체를 여러개 관리를 해야 할 때 -> 대규모 작업 시작
 
 
-// * 타입 확인
-function nametest(order,name) {
+// // * 타입 확인
+// function nametest(order,name) {
 
-  const test = Number(order);
-  // ! 타입을 스트링에서 숫자로 바꾸어 주었다.
+//   const test = Number(order);
+//   // ! 타입을 스트링에서 숫자로 바꾸어 주었다.
 
-  if (typeof (test) === 'number') {
-    this.order = order,
-      this.name = name
-  }
-    console.log(typeof(order) );
-}
+//   if (typeof (test) === 'number') {
+//     this.order = order,
+//       this.name = name
+//   }
+//     console.log(typeof(order) );
+// }
 
-const a = [];
-for (let i = 0; i < studentList.length; i++) {
-  a.push(new nametest(i, studentList[i]));
-}
+// const a = [];
+// for (let i = 0; i < studentList.length; i++) {
+//   a.push(new nametest(i, studentList[i]));
+// }
 
-console.log(...a);
+// console.log(...a);
 
 
 
