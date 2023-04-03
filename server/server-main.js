@@ -8,6 +8,7 @@ db.connect((err) => {
   }
 }); //! db서버 열기
 
+
 db.query('show tables' , (err,re,q) =>
 {
   if(err){console.log(err)}
